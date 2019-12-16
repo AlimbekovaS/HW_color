@@ -1,0 +1,95 @@
+body {
+  color: rgb(0, 0, 0);
+  /* background: transparent; */
+  font-size: 2em;
+  padding: 20px;;
+}
+
+table,
+td,
+th {
+  border-spacing: 0; /* расстояние между границами ячеек (аналог атрибута cellspacing) */
+  border: 1px solid black; /* Добавляет черную границу ячейкам и таблице */
+  border-collapse: collapse; /* Объединяет смежные границы в одну */
+}
+table {
+    width: 100%;
+}
+.red{
+  background-color: #ff0000;
+}
+.red1{
+  background-color: rgb(255, 0, 0);
+}
+.red2{
+  background-color: hsl(0, 100%, 50%);
+}
+.red3{
+  background-color: hsla(0, 100%, 50%, 0.5);
+}
+
+.orange{
+  background-color: #ffa500;
+}
+.orange1{
+  background-color:hsl(39, 100%, 50%);
+}
+.orange2{
+  background-color: hsl(39, 100%, 50%);
+}
+.orange3{
+  background-color:hsla(39, 100%, 50%, 0.5)
+}
+
+.yellow{
+  background-color:#ffff00;
+}
+.yellow1{
+  background-color:rgb(255, 255, 0);
+}
+.yellow2{
+  background-color:hsl(60, 100%, 50%);
+}
+.yellow3{
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.green{
+  background-color:#008000;
+}
+.green1{
+  background-color:rgb(0, 128, 0);
+}
+.green2{
+  background-color:hsl(120, 100%, 25%);
+}
+.green3{
+  background-color: hsla(120, 100%, 25%, 0.5);
+}
+
+.blue{
+  background-color:#0000ff;
+}
+.blue1{
+  background-color:rgb(0, 0, 255);
+}
+.blue2{
+  background-color:hsl(240, 100%, 50%);
+}
+.blue3{
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+.violet{
+  background-color:#ee82ee;
+}
+.violet1{
+  background-color:rgb(238, 130, 238);
+}
+.violet2{
+  background-color:hsl(300, 76%, 72%);
+}
+.violet3{
+  background-color: hsla(300, 76%, 72%, 0.5);
+}
+
